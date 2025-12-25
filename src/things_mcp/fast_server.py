@@ -30,11 +30,7 @@ setup_logging(console_level="INFO", file_level="DEBUG", structured_logs=True)
 logger = get_logger(__name__)
 
 # Create the FastMCP server
-mcp = FastMCP(
-    "Things", 
-    description="Interact with the Things task management app",
-    version="0.1.1"
-)
+mcp = FastMCP("Things")
 
 # LIST VIEWS
 
